@@ -1,0 +1,166 @@
+
+html{
+box-sizing: border-box;
+}
+
+*, *::after, *::before{
+box-sizing: inherit;
+margin: 0;
+padding: 0;
+}
+
+.html,
+body{
+ height: 100%;
+}
+ 
+ul{
+ list-style-type: none;
+}
+
+a{
+ text-decoration: none;
+ color: inherit;
+}
+
+.wrapper {
+  opacity: 0.8;
+  color: white;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 720px; 
+}
+
+.conteiner {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+section h1 {
+  font-size: 50px; /* Здесь задайте нужный размер */
+  color: red; /* Здесь задайте нужный цвет */
+}
+
+section p {
+  font-size: 20px; /* Здесь задайте нужный размер */
+  color: green; /* Здесь задайте нужный цвет */
+}
+
+body{
+ background-image: url("https://images.wallpaperscraft.ru/image/single/derevo_vetki_vektor_32941_1600x1200.jpg");
+ background-size: cover; /* Масштабирование фона для заполнения всего экрана */
+ background-position: center; /* Позиционирование фона по центру */
+ font-family: 'Gentium Book Plus', serif;
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 1.3;
+}
+
+.header{
+ background-color: white;
+}
+
+/*.header-main{
+ background-color: transparent;
+}*/
+
+.header__inner {
+ font-size: 20px;;
+  padding-top: 20px;
+  padding-bottom: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.header__text {
+  font-size: 40px;
+  color: black;
+  margin-right: 10px; /* Регулируйте отступ справа по своему усмотрению */
+}
+.menu__list{
+display: flex;
+gap: 35px;
+
+}
+
+.menu__list-link{
+ color: black;
+ text-transform: uppercase;
+ justify-content: left; /* Добавьте это свойство */
+ font-weight: 700;
+ text-align: right; /* Добавьте это свойство */
+}
+
+.footer{
+    opacity: 0.8;
+ background-color: white;
+ padding: 50px 0 32px;
+ color: white;
+}
+
+.footer__menu{
+ color: black;
+ display: flex;
+ justify-content: space-around;
+ margin-bottom: 50px;
+}
+
+.footer__menu-list{
+color: black;
+ max-width: 250px;
+}
+
+.footer__menu-title{
+ color: black;
+ font-size: 24px;
+ font-weight: 700;
+ padding-bottom: 20px;
+}
+
+
+.footer__menu-item{
+    color: black;
+ padding-top: 5px;
+}
+
+.app{
+    color: black;
+ display: flex;
+ justify-content: center;
+ gap: 40px;
+ margin-bottom: 50px;
+}
+
+.app__item-img{
+    color: black;
+ max-width: 200px;
+ max-height: 200px;
+}
+
+.footer__copy{
+    color: black;
+ max-width: 800px;
+ margin: 0 auto 30px;
+ text-align: center;
+}
+
+.copy__nav-list{
+    color: black;
+ display: flex;
+ justify-content: center;
+ gap: 60px;
+}
+
+.main {
+    color: black;
+    flex-grow: 1;
+}
+
+.logo-image {
+  max-width: 75px; /* Задайте желаемую максимальную ширину */
+}
+
+
